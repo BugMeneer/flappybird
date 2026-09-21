@@ -91,7 +91,7 @@ const recognition = new SpeechRecognition();
 
 console.log(recognition);
 
-recognition.continuous = false;
+recognition.continuous = true;
 recognition.lang = "id-ID";
 recognition.interimResults = true;
 recognition.maxAlternatives = 1;
