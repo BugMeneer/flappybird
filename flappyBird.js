@@ -125,7 +125,7 @@ recognition.onaudioend = () => {
 };
 
 recognition.onspeechstart = () => {
-  // moveUp();
+  moveUp();
 
   console.log("onspeechstart.");
 };
