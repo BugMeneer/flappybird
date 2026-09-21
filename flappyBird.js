@@ -105,7 +105,7 @@ recognition.maxAlternatives = 1;
 // };
 
 recognition.onresult = (event) => {
-  moveUp();
+  // moveUp();
 };
 
 recognition.onstart = () => {
@@ -113,7 +113,7 @@ recognition.onstart = () => {
 };
 
 recognition.onaudiostart = () => {
-  // moveUp();
+  moveUp();
 
   console.log("onaudiostart.");
 };
